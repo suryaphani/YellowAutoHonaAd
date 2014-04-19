@@ -1,0 +1,44 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/themes/alertify.core.css">
+<link rel="stylesheet" type="text/css" href="css/themes/alertify.default.css" id="toggleCSS" />
+<link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+<link rel="stylesheet" type="text/css" href="css/upload.css"/>
+
+	</head>
+	<body>
+	 <div id="middl">
+        <div id="container">
+       	<div id="upload_pages">
+		    
+		   <form id="Form1" action="" enctype="multipart/form-data" method="POST">
+		
+			<input type="hidden" name="AddFiles" id="AddFiles" value="1">
+		
+		<input class="myButton" type="file" name="upload_file[]" class="hidden" id="upload_file" multiple />
+			
+		 <input class="textbox"  placeholder = "Enter auto id" type="text" name="autoId" />
+			<br /><br />
+			<strong id="form-text">Images are to be upload</strong>
+			
+			
+			
+			<div id="selectedFiles"></div>    
+			<input class="myButton" type="submit" value="Upload" id="uploadimages" />
+		   </form>
+		   
+		 	   
+		</div>
+      
+        </div>
+    </div>
+
+     <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+	 <script type="text/javascript" src="js/module.js"></script>
+     <script src="js/lib/jq.js"></script>
+	 <script src="js/lib/alertify.min.js"></script>
+		
+	</body>
+</html>
